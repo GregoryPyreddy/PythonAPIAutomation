@@ -10,3 +10,5 @@ Now get into the project directory and to check if everything is setup please ru
 pytest  --html=report.html
 
 After execution is done please verify the file report.html under the base folder.
+
+Inorder to use it for the project we should be making changes in the testdata.json and add appropriate details. 
