@@ -1,0 +1,31 @@
+{
+    "test1" : {
+        "url" : "http://dummy.restapiexample.com/api/v1/employees",
+        "method": "GET",
+        "headers": {},
+        "params": {},
+        "payload" : "",
+        "expectedStatusCode" : 200
+    },
+    "test2" : {
+        "url" : "https://reqres.in/api/users",
+        "method": "POST",
+        "headers": {},
+        "params": {},
+        "payload" : {
+            "name": "morpheus",
+            "job": "leader"
+        },
+        "expectedStatusCode" : 201
+    },
+    "test3" : {
+        "url" : "https://reqres.in/api/users/2",
+        "method": "DELETE",
+        "headers": {},
+        "params": {},
+        "payload" : "",
+        "expectedStatusCode" : 204
+    }
+
+    
+}
